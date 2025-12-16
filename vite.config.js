@@ -8,9 +8,9 @@ import vueDevTools from "vite-plugin-vue-devtools";
 export default defineConfig({
   base: "pizzaNuxt",
   plugins: [vue(), vueDevTools()],
-  resolve: {
-    alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url)),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     "@": fileURLToPath(new URL("./src", import.meta.url)),
+  //   },
+  // },
 });
